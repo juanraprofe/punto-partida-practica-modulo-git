@@ -4,7 +4,7 @@ Diario del desarrollo de la actividad Laboratorio Git
 
 <!-- plantilla inserción imagen -->
 <!-- ![Descripción de la imagen](capturas/nombre-imagen.png) -->
-##  TASK 1
+##  TASK 1 --> Fork y configuración inicial
 ### Fork
 Un fork es una copia completa de un repositorio que se crea bajo tu propia cuenta en una plataforma como GitHub.
 
@@ -15,10 +15,26 @@ Un fork es una copia completa de un repositorio que se crea bajo tu propia cuent
 
 ![GitHub con la rama dev visible en el desplegable de ramas](capturas/task1-2.png)
 
-Listado capturas
-1	
-2	
-3	La app en el navegador con la Opción 5 recién añadida
+
+##  TASK 2 --> Feature branch A: añadir la Opción 5
+### Origen de la rama
+La rama `feature/opcion-5` parte de la rama `dev` porque esa es la rama en la que nos encontrábamos al ejecutar el comando con el que la creamos:
+`git switch -c feature/opcion-5`
+
+
+![La app en el navegador con la Opción 5 recién añadida](capturas/task2.png)
+
+
+##  TASK 3 --> Feature branch B: añadir la Opción 6 (generamos el conflicto)
+
+### demo
+La rama `feature/opcion-5` parte de la rama `dev` porque esa es la rama en la que nos encontrábamos al ejecutar el comando con el que la creamos:
+`git switch -c feature/opcion-5`
+
+
+![La app en el navegador con la Opción 5 recién añadida](capturas/task2.png)
+
+
 4	El PR de Feature A en GitHub con la pestaña Files changed abierta
 5	El PR de Feature B en GitHub mostrando el banner rojo de conflicto
 6	Los marcadores de conflicto (<<<<<<<, =======, >>>>>>>) en VS Code
